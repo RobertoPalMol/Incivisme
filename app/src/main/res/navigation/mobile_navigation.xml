@@ -9,18 +9,21 @@
         android:id="@+id/navigation_home"
         android:name="com.example.incivisme.ui.home.HomeFragment"
         android:label="@string/title_home"
+        android:title="Principal"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.incivisme.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
+        android:title="Llistat"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.incivisme.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
+        android:title="Mapa"
         tools:layout="@layout/fragment_notifications" />
 
 </navigation>
